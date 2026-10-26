@@ -31,7 +31,7 @@ Welcome! This repository is my work log for the **BSS Software Engineering (SWE)
 | 6 | 2 weeks | Backend basics (Node.js) | ⬜ |
 | 7 | 3 weeks | Backend advanced (FastAPI or .NET) | ⬜ |
 | 8 | 2 days | Docker basics | ⬜ |
-| 9 | 2 weeks | Final team project: BSS Restaurant App | ⬜ |
+| 9 | 2 weeks | Final project | ⬜ |
 
 ### Phase 1: HTML and CSS
 
