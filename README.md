@@ -98,7 +98,7 @@ Each task folder is named like `task-1.1-bangladesh-flag/`.
 
 | Week | Highlights |
 |---|---|
-| 1 | _To be added_ |
+| 1 | Completed Module 1 to 4 |
 
 ---
 
