@@ -23,7 +23,7 @@ Welcome! This repository is my work log for the **BSS Software Engineering (SWE)
 
 | Phase | Duration | Focus | Status |
 |---|---|---|---|
-| 1 | 2 weeks | HTML and CSS | ⬜ |
+| 1 | 2 weeks | HTML and CSS | 🟡 |
 | 2 | 1 week | Bootstrap 5 | ⬜ |
 | 3 | 2 days | Git and GitHub | ⬜ |
 | 4 | 2 weeks | JavaScript fundamentals | ⬜ |
