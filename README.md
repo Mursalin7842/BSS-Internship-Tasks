@@ -35,6 +35,7 @@ Welcome! This repository is my work log for the **BSS Software Engineering (SWE)
 
 ### Phase 1: HTML and CSS
 
+### 🟡 Phase 1 Tasks and Assignments: [View Live Website](https://phase1-tasks.vercel.app/)
 - [ ] Task 1.1: Bangladesh flag using CSS positioning
 - [ ] Task 1.2: Bento-style image gallery with CSS Grid
 - [ ] Task 1.3: Analog clock UI
