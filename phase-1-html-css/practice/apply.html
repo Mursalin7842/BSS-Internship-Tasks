@@ -48,7 +48,21 @@
 
             <label for="resume">Upload Resume:</label><br>
             <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
-
+            <label for = "confidence">Confidence Level:</label><br>
+            <input type="range"
+            id="confidence"
+            name="confidence"
+            min ="0"
+            max="100"
+            list="confidence-levels">
+            <datalist id ="confidence-levels">
+                <option value ="0"></option>
+                <option value="25"></option>
+                <option value="50"></option>
+                <option value="75"></option>
+                <option value="100"></option>
+            </datalist>
+            <br><br>
             <input type="submit" value="Submit Application">
             </section>
         </form>
