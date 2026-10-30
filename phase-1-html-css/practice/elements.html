@@ -41,7 +41,21 @@
                 <iframe src="https://mursaline.engineer/" frameborder="0" height="360px" width="480px"></iframe>
                 <h2>video embedded in an iframe</h2>
                 <iframe src="https://www.youtube.com/embed/ZQ-YD96JPqQ" frameborder="0" height="360px" width="480px"></iframe>
-            </section>
+            </section> 
+            <div>
+                <!-- Progress meter -->
+                <label for="file">File Progress</label>
+                <progress id="file" max ="100" value="70"> 70% </progress>
+                <br><br>
+                <label for="fuel">Fuel Level</label>
+                <meter id = "fuel"
+                value="40"
+                min="0"
+                max="100"
+                low="30"
+                high="90"
+                optimal="80" >50/100</meter>
+            </div>
         </main>
     </body>
 </html>
