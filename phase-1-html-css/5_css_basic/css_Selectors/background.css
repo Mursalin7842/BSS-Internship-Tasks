@@ -1,0 +1,33 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+    background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEj_azh0X4wd8tHVJld3krQf8Q9Yf5DHoydPMfU59Pz7keN_93upIRPLmWgJNEzprRVFmQJfpWlNlP4_q3SDUCWWEhgPe3xRBgPwi1r9ACreIRTcRhVgqiVEuyHDIrHavgtJUgNxhk04D46JxKZwFgt8KjSTChlepez31hQqjAoGsIN8U-hqyh1A3o6MDfU=w640");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #000;
+}
