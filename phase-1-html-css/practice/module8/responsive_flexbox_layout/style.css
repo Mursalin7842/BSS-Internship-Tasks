@@ -76,3 +76,36 @@ p{
     background-color: #f4f4f4;
     border-bottom: 1px solid #ccc;
 }
+
+@media (max-width: 768px){
+    .header{
+        padding: 15px;
+    }
+
+    .header h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .main-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-menu li{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+
+    .main-menu li:last-child{
+        border-bottom: none;
+    }
+
+    .main{
+        flex-direction: column-reverse;
+    }
+
+    .main aside{
+        width: 100%;
+    }
+}
