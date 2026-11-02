@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #d9e2e8;
+}
+
+.container{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0px 20px;
+}
+
+.card{
+    background-color: #ffffff;
+    margin: 20px 0px;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2{
+    font-size:27px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card a{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.card-sporty h2{
+    color: #e04553;
+}
+
+.card-casual h2{
+    color: #0d4ba3;
+}
+
+.card-formal h2{
+    color: #512b22;
+}
+
+.card a:hover{
+    opacity: 0.8;
+}
+
+.card-sporty a{
+    background-color: #e04553;
+}
+
+.card-casual a{
+    background-color: #0d4ba3;
+}
+
+.card-formal a{
+    background-color: #512b22;
+}
+
+.card-sporty{
+    background-color: white;
+    background-image : url('https://5.imimg.com/data5/ANDROID/Default/2021/7/JF/HU/DD/134044343/product-jpeg-1000x1000.jpeg');
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: right;
+}
+
+.card-casual{
+    background-color: white;
+    background-image : url('https://rukmini1.flixcart.com/image/1500/1500/k5bcscw0pkrrdj/shoe/m/q/u/10-8723-kraven-8723-original-imafzyzmagz9z2hc.jpeg?q=70');
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: right;
+}
+
+.card-formal{
+    background-color: white;
+    background-image : url('https://m.media-amazon.com/images/I/61HHOono0VL._AC_SY355_.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: inset 4px -4px 6px rgba(0, 0, 0, 0.3);
+}
