@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    font-weight: 600;
+    background-color: #27264b;
+    color: #433f63;
+    padding: 0 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #0433f63;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.container{
+    max-width: 900px;
+    background-color: #f8fafe;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    width: 100%;  
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 250px;
+    min-width: 0px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    background-color: #f8fafe;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+    text-transform: uppercase;
+ }
+
+ .card-pro h2{
+    background : linear-gradient(
+        90deg,
+        rgba(194, 227,255,1)13%,rgba(180, 118, 254, 1) 100%
+    );
+    color: #fff;
+
+ }
+
+ .card-enterprise h2{
+    background : linear-gradient(
+        90deg,
+        rgba(255, 117, 194, 1) 13%, rgba(255, 203, 114, 1) 100%
+    );
+    color: #fff;
+ }
+
+.card .price{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+ }
+
+ .card .price sup{
+    font-size: 20px;
+    position: relative;
+    left: -5px;
+}
+
+.card .price span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.card .description {
+    flex:1;
+    font-size: 16px;
+    margin-bottom: 50px;
+} 
+
+.btn{
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    color: #27264b;
+    border: 1px solid #27264b;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary,
+.btn:hover{
+    background-color: #27264b;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: #27264b;
+    border: 1px solid #27264b;
+}
+
+.card ul{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.card ul li i{
+    color: green;
+    margin-right: 10px;
+}
+
+
+nav button{
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: #27264b;
+}
+
+ nav a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+nav h3{
+    color: #fff;
+    margin-left: 10px;
+}
+
