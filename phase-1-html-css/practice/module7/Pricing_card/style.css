@@ -10,6 +10,7 @@ body{
     font-weight: 600;
     background-color: #27264b;
     color: #433f63;
+    padding: 0 20px;
 
 }
 
@@ -27,7 +28,7 @@ li{
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 900px;
     background-color: #f8fafe;
     margin: 50px auto;
     border-radius: 10px;
@@ -138,7 +139,8 @@ li{
     margin-right: 10px;
 }
 
-button{
+
+nav button{
     width: 150px;
     padding: 10px;
     margin-top: 10px;
@@ -147,8 +149,14 @@ button{
     background-color: #27264b;
 }
 
- a{
+ nav a{
     color: #fff;
     text-decoration: none;
 
 }
+
+nav h3{
+    color: #fff;
+    margin-left: 10px;
+}
+
