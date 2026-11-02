@@ -45,7 +45,7 @@ li{
 .card{
     display: flex;
     flex-direction: column;
-    flex: 1 0 200px;
+    flex: 1 1 250px;
     min-width: 0px;
     background-color: #fff;
     padding: 20px;
