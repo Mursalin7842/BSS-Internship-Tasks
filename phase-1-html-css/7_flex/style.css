@@ -1,0 +1,40 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    background: lightgrey;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: ;
+}
+
+.flex-item{
+    height: 100px;
+    width: 100px;
+    background: tomato;
+    border: 1px solid black;
+}
+
+.flex-item:nth-child(1){
+    background: lightblue;
+    flex: 2 1 100px;
+}
+
+.flex-item:nth-child(2){
+    background: lightgreen;
+    height: 150px;
+    width: 150px;
+} 
+
+.flex-item:nth-child(4){
+    background: lightcoral;
+    height: 300px;
+    width: 100px;
+    align-self: flex-end
+}
