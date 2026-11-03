@@ -1,11 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background: black;
+    color: white;
+    line-height: 1.6;
+}
+
+.wrapper{
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 0, 191, 0.95),
+        rgba(150, 45, 45, 0.9 )
+    ),
+    url("./images/background.jpg") no-repeat center center ;
+    background-size: cover;
+}
+
 .header{
-    background-color: pink;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 30px 20px;
+    margin-bottom: 10px;
 }
 
 .logo{
-    height: 50px;
+    width: 100px;
 }
+
+.header .header-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header .header-right i{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.header .header-right a{
+    color: white;
+}
+
+.header .header-right a:hover{
+    color: blue;
+}
+
