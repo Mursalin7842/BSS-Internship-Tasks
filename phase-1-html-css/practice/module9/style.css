@@ -11,6 +11,13 @@ body{
     line-height: 1.6;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* main section */
+
 .wrapper{
     height: 100vh;
     background: linear-gradient(
@@ -53,3 +60,15 @@ body{
     color: blue;
 }
 
+/* main section */
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px;
+    padding: 20px;
+    gap: 50px;
+
+}
