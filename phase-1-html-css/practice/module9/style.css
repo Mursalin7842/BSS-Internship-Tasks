@@ -1,0 +1,11 @@
+.header{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo{
+    height: 50px;
+}
