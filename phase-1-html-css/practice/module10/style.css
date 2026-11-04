@@ -35,6 +35,7 @@ img{
 }
 
 .header{
+   min-height: 70px;
    background: linear-gradient(
         to right,
         rgb(255, 0, 157, 0.9),
@@ -55,6 +56,7 @@ img{
 .header .menu a:hover{
    color: #fff;
    font-weight: Bold;
+   font-size: 18px;
 }
 
 .header .menu ul{
@@ -87,9 +89,10 @@ img{
 
 @media (max-width: 768px){
    .header .menu ul{
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 600;
       margin: 0px 15px;
+      justify-content: space-around;
    }
 
    .container{
