@@ -3,7 +3,7 @@
 ## Week 1 — HTML and CSS
 
 The repository history for this week shows work across `main` and
-`phase-1/task-1.1-flag`. I worked through the evening and, when needed, continued
+`phase-1/task-1.1-flag`. I worked throughout the day and, when needed, continued
 overnight to complete and refine tasks.
 
 This week, I started the HTML and CSS phase of my internship and worked through the

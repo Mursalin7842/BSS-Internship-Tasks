@@ -210,14 +210,17 @@ a{
 /* footer section */
 
 footer{
-    height: 100px;
+    height: 120px;
     background-color: rgba(255, 0, 85, 0.1);
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-bottom: 20px;
 }
+
 
 .back-home-screen{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 20px;
@@ -251,4 +254,5 @@ footer{
         rgb(255, 0, 85),
         rgba(90, 45, 150, 0.9)
     );
+
 }
