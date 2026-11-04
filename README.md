@@ -2,8 +2,9 @@
 
 Welcome! This repository is my work log for the **BSS Software Engineering (SWE) Internship Program**. It holds every task, project and weekly note in one place, so supervisors and teammates can follow my progress and give feedback at any time.
 
-**Intern:** Mursaline Huqe
-**Program:** 4 months (16 weeks), 5 days a week, 9 hours a day
+**Intern:** Mursaline Huqe.<br>
+**Program:** 4 months (16 weeks), Monday to Friday.<br>
+**Working hours:** 8:00 AM to 11:00 PM, with some work continuing overnight.<br>
 **Status:** 🟡 In progress
 
 ---
@@ -14,6 +15,21 @@ Welcome! This repository is my work log for the **BSS Software Engineering (SWE)
 - **Each task** lives in its own folder with a short README (what I built, how to run it, what I learned).
 - **Feedback is very welcome.** Please leave comments on a pull request or open an Issue. I read all of it and I will act on it.
 - **Weekly notes** are in [`docs/learning-log.md`](docs/learning-log.md).
+
+## About this internship
+
+This repository records my progress during my first industry-level software engineering
+internship. I am learning that the experience is not only about writing code. It also
+requires consistency, communication, professional behaviour, and the ability to adapt
+when the pace is different from what I am used to.
+
+I usually work on the internship from 8:00 AM to 11:00 PM, Monday to Friday. When a task
+needs more time, I sometimes continue working overnight. Keeping up with this schedule
+was difficult at first, but I have gradually adapted to it. My working speed has
+improved, and I am becoming more comfortable managing my time and maintaining steady
+progress.
+
+**Read more :** [`docs/learning-log.md`](docs/learning-log.md).
 
 ---
 
@@ -70,7 +86,9 @@ BSS-Internship-Tasks/
 └── phase-9-final-project/
 ```
 
-Each task folder is named like `task-1.1-bangladesh-flag/`.
+The current work is split across two branches: `main` and
+`phase-1/task-1.1-flag`. The branch history records the progression of the practice
+modules and layout projects.
 
 ---
 
@@ -87,7 +105,8 @@ Each task folder is named like `task-1.1-bangladesh-flag/`.
 
 ## Working agreements
 
-- **Branches:** one branch per task, for example `phase-1/task-1.1-flag`.
+- **Branches:** work is currently maintained on `main` and
+  `phase-1/task-1.1-flag`.
 - **Commits:** short and clear, for example `feat: add bento gallery layout` or `fix: clock hand pivot point`.
 - **Pull requests:** a short description and a screenshot or demo link where it makes sense.
 - **Quality:** responsive layouts, semantic HTML, no secrets in the repo (`.env` files stay out of Git).
@@ -98,7 +117,7 @@ Each task folder is named like `task-1.1-bangladesh-flag/`.
 
 | Week | Highlights |
 |---|---|
-| 1 | Completed Module 1 to 4 |
+| 1 | Worked through HTML/CSS Modules 2–10, including responsive layouts, forms, cards, and the Module 9 Bono app project |
 
 ---
 

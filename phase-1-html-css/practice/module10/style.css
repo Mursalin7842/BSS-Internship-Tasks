@@ -1,0 +1,7 @@
+ :root{
+    --primary-color: #ff0099;
+ }
+
+ body{
+    background-color: var(--primary-color);
+ }
