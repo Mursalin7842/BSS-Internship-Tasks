@@ -43,6 +43,9 @@ img{
    color: white;
    padding: 20px 0;
    margin-bottom: 20px;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
 }
 
 .header .menu a{
@@ -84,8 +87,13 @@ img{
 
 @media (max-width: 768px){
    .header .menu ul{
-      flex-direction: column;
-      gap: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0px 15px;
+   }
+
+   .container{
+      padding: 0 20px;
    }
 }
 
