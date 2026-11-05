@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hand{
+    height: 50%;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left center;
+}
+
+.minute-hand{
+    height: 3px;
+    width: 40%;
+    background-color: red;
+    z-index: 1;
+
+    animation-name: forclock;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.second-hand{
+    position: absolute;
+    height: 2px;
+    width: 45%;
+    background-color: blue;
+    z-index: 2;
+    left: 50%;
+    transform-origin: left center;
+    
+    animation-name: forclock;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+@keyframes forclock{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

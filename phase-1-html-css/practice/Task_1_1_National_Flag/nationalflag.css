@@ -2,14 +2,14 @@
 .flag {
     width: 500px;
     height: 300px;
-    background-color: #006A4E;
+    background-color: green;
     position: relative;
 }
 
 .circle {
     width: 200px;
     height: 200px;
-    background-color: #F42A41;
+    background-color: red;
     border-radius: 50%;
     position: absolute;
     top: 50%;
