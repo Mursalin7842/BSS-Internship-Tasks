@@ -1,5 +1,6 @@
 body{
     font-family: Arial, sans-serif;
+    background-color: #99999977; /* color picker game me this #e9e9e9 but cant see much changes */
 }
 
 .gallery{
@@ -22,14 +23,14 @@ body{
     object-fit: cover;
 }
 
-.gallery-item::after{
+.gallery-item::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .gallery-item span{
@@ -39,7 +40,6 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     font-size: 25px;
-    z-index: 1;
 }
 
 .image1{
