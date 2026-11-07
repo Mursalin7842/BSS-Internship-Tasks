@@ -78,3 +78,16 @@ a:hover{
     background-color: #555;
     box-shadow: 0 0 5px #fff;
 }
+
+@media(max-width: 768px){
+    .item-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto 1fr;
+        grid-auto-rows: auto;
+    }
+
+    .header, .footer, .nav, .search, .maincontent, .asidecontent{
+        grid-column: span 1;
+    }
+
+}
