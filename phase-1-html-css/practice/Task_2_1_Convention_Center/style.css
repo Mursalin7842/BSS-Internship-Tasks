@@ -141,8 +141,8 @@ li{
 }
 
 .explore-album img{
+    width: 100%;
     max-width: 546px;
-    min-height: 364px;
 }
 
 .explore-album .explore-album-text{
@@ -321,6 +321,11 @@ li{
     border-radius: 10px;
     transform: scale(1.1);
     background: #3F87F5;
+
+    background-image: url("images/hoverbackground.png");
+    background-size: cover;
+    background-position: right;
+    
     color: #FFFFFF;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 
@@ -405,14 +410,14 @@ li{
     flex: 1;
 }
 
-.QA-flex-card img{
+.QA-flex img{
     flex: 1;
+    width: 100%;
     max-width: 546px;
-    min-height: 364px;
 }
 
 .QA-card{
-    min-width: 552px;
+    width: 100%;
     border: 1px solid #D5E5FB;
     border-radius: 5px;
     padding: 1rem 2rem;
@@ -444,6 +449,7 @@ li{
     max-width: 1440px;
     margin: 0 auto;
     padding: 2rem;
+    gap: 2rem;
 }
 
 .footer .store-icons{
@@ -454,4 +460,55 @@ li{
 
 .footer .text{
     flex: 1;
+}
+
+/* mobile view section */
+
+.header .hamburger{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header .hamburger{
+        display: block;
+    }
+
+    .header .nav-list{
+        display: none;
+    }
+
+    .explore-album{
+        flex-direction: column-reverse;
+    }
+
+    .explore-album .explore-album-text{
+        align-items: center;
+    }
+
+    .explore-album .offer-badge{
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+
+    .packages .package-flex{
+        flex-direction: column;
+    }
+    .pricing-card{
+        min-width: 100%;
+    }
+
+    .clients-review .review-flex{
+        flex-direction: column;
+    }
+
+    .QA .QA-flex{
+        flex-direction: column;
+    }
+
+    .footer .footer-flex{
+        flex-direction: column-reverse;
+    }
+
+
 }
