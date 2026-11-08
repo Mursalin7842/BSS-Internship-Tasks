@@ -18,6 +18,11 @@ li{
     list-style: none;
 }
 
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* header section */
  
 .header{
@@ -82,7 +87,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .hero .banner-text-big{
@@ -120,4 +125,255 @@ li{
 .hero .slider_indicator{
     position: absolute;
     bottom: 5px;
+}
+
+/* explore album section */
+
+.explore-album{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    position: relative;
+
+}
+
+.explore-album img{
+    max-width: 546px;
+    min-height: 364px;
+}
+
+.explore-album .explore-album-text{
+    max-width: 503px;
+    min-height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+
+    h2{
+        font-size: 38px;
+        font-weight: bold;
+        line-height: 60px;
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 28px;
+        color: #6C6C6C;
+    }
+}
+
+.explore-btn{
+    color: #FFFFFF;
+    background: #3F87F5;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+
+    width: 230px;
+    height: 44px;
+}
+
+.explore-album .offer-badge{
+    position: absolute;
+    width: 263px;
+    height: 42px;
+
+    background: #FFFFFF;
+    color: #505050;
+    padding: 10px 20px;
+    border-left: 5px solid #3F87F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    right: -5px;
+    top: 45%;
+
+}
+
+/* our packages section */
+.packages{
+    padding: 4rem;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.pricing-card i{
+    height: 20px;
+    width: 20px;
+    color: #5243C2;
+    background: #5243c233;
+    border-radius: 50%;
+}
+.packages h1{
+    font-size: 38px;
+    font-weight: semi-bold;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #0A0826;
+}
+.package-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 232px;
+    font-size: 15px;
+    color: #848199;
+
+    transition: transform 0.5s ease-in;
+}
+
+.pricing-card h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #231D4F;
+    font-family: "Roboto", sans-serif;
+}
+
+.pricing-card h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #231D4F;
+    font-family: "Roboto", sans-serif;
+}
+.pricing-card p{
+    margin: 10px 0;
+    width: 232px;
+}
+
+.pricing-card .btn{
+    width: 207px;
+    height: 45px;
+    background: rgba(244, 150, 209, 0.10);
+    color: #3F87F5;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+
+.pricing-card .btn:hover{
+    background: #5243C2;
+    color: #FFFFFF;
+}
+
+.pricing-card .btn-primary{
+    background: #FFFFFF;
+    color: #3F87F5;
+}
+.pricing-card .btn-primary:hover{
+    background: #5243C2;
+    color: #FFFFFF;
+}
+
+.wedding-plus{
+    position: relative;
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    border-radius: 10px;
+    transform: scale(1.1);
+    background: #3F87F5;
+    color: #FFFFFF;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+
+    h2, h3, p{
+        color: #FFFFFF;
+    }
+
+    i{
+        color: #FFFFFF;
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+
+.wedding-plus .hot-badge{
+    position: absolute;
+    background: red;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+    right: 15px;
+    top: -15px;
+
+
+}
+
+.pricing-card:hover{
+    transform: scale(1.1);
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    border-radius: 10px;
+    transform: scale(1.1);
+    background: #3F87F5;
+    color: #FFFFFF;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+
+    h2, h3, p{
+        color: #FFFFFF;
+    }
+
+    i{
+        color: #FFFFFF;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    button{
+        background: #FFFFFF;
+        color: #3F87F5;
+    }
+}
+
+/* Customer reviews section */
+
+.clients-review{
+    padding: 4rem;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.clients-review h1{
+    font-size: 38px;
+    font-weight: semi-bold;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #0A0826;
+}
+
+.review-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.review-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    min-width: 360px;
+
+    padding: 1rem 4.8rem;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.12);
 }
