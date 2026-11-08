@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+li{
+    list-style: none;
+}
+
+/* header section */
+ 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    max-width: 1200px;
+}
+
+.header .logo{
+    font-size: 22px;
+    font-weight: Bold;
+    color: #3E3E3E;
+}
+
+.header .nav-bar{
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+.header .nav-list{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+/* hero section */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+
+    position:relative;
+    max-width: 1440px;
+    min-height: 584px;
+
+    background-image: url("images/hero_background_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+
+}
+
+.hero .slider{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.hero .banner-text{
+    max-width: 639px;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero .banner-text-big{
+    font-size: 48px;
+    font-weight: semi-bold;
+    color: #FFFFFF;
+    line-height: 120.5%;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.hero .banner-text-small{
+    max-width: 456px;
+    min-height: 48px;
+    font-size: 16px;
+    font-weight: light;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero .banner-text .btn{
+    width: 168px;
+    height: 44px;
+    background: #FFFFFF;
+    color: #3F87F5;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero .slider_indicator{
+    position: absolute;
+    bottom: 5px;
+}
