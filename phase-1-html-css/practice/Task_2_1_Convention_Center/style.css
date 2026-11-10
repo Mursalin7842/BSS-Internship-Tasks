@@ -32,6 +32,10 @@ li{
     margin: 0 auto;
     padding: 1.5rem 2rem;
     max-width: 1200px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background: #FFFFFF;
 }
 
 .header .logo{

@@ -63,7 +63,23 @@ body{
     transform-origin: left center;
     
     animation-name: forclock;
-    animation-duration: 5s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.hour-hand{
+    position: absolute;
+    height: 2px;
+    width: 40%;
+    background-color: green;
+    z-index: 0;
+    left: 50%;
+    transform-origin: left center;
+    
+    animation-name: forclock;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 
