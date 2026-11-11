@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+    <title>Restaurant</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#home" class="logo">
+        <img src="images/logo-icon.svg" alt="Restaurant Logo" class="logo-icon">
+        <span class="logo-text"><b>Restau</b>rant</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <img src="images/icon-menu.svg" alt="">
+      </button>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#popular">Portfolio</a></li>
+          <li><a href="#testimonials">Clients</a></li>
+          <li><a href="#footer">Blog</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+        <a href="#booking" class="btn">Book a table</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home page  -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Taste the authentic<br>Saudi cuisine</h1>
+          <p class="hero-desc">Among the best Saudi chefs in the world, serving you something beyond flavor.</p>
+          <a href="#popular" class="btn">Explore Menu</a>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/hero-food.jpg" alt="Grilled ribs served with fries and sauce" class="hero-photo">
+          <img src="images/star.svg" alt="" class="hero-star">
+          <div class="offer-badge">
+            <span>Today<br>Offer</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+
+
+      <div class="about-grid">
+
+        <div class="about-image">
+          <img src="images/about-burger.jpg" alt="Burger with fries and a cold drink" class="about-photo">
+
+          <div class="stat-card">
+            <div class="stat-ring">
+              <img src="images/ring-50.svg" alt="">
+              <span>50+</span>
+            </div>
+            <p>Market<br>Experiences</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="tabs">
+            <button class="tab active" type="button">About</button>
+            <button class="tab" type="button">Experience</button>
+            <button class="tab" type="button">Contact</button>
+          </div>
+
+          <h2 class="section-title">Exceptional culinary experience and delicious food</h2>
+
+          <div class="about-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis
+              ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur
+              adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.
+            </p>
+          </div>
+
+          <div class="about-actions">
+            <a href="#booking" class="btn">About More</a>
+            <a href="tel:+883426739485" class="phone-link">
+              <img src="images/icon-phone-red.svg" alt="">
+              <span>+88 3426 739 485</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fast Delivery Part -->
+      <div class="features">
+        <div class="feature">
+          <span class="feature-icon"><img src="images/icon-box.svg" alt=""></span>
+          <div>
+            <h3>Fast delivery</h3>
+            <p>Within 30 minutes</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="feature-icon"><img src="images/icon-award.svg" alt=""></span>
+          <div>
+            <h3>Absolute dining</h3>
+            <p>Best buffet restaurant</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="feature-icon"><img src="images/icon-bag.svg" alt=""></span>
+          <div>
+            <h3>Pickup delivery</h3>
+            <p>Grab your food order</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Salad Bowl image -->
+    <img src="images/salad-bowl.png" alt="" class="decor decor-bowl">
+  </section>
+
+
+  <!-- Popular Food Section -->
+  <section class="popular" id="popular">
+    <!-- Decorative image -->
+    <img src="images/pepper-rings.png" alt="" class="decor decor-rings">
+
+    <div class="container popular-container">
+      <p class="label">Crispy, Every Bite Taste</p>
+      <h2 class="section-title">Popular food items</h2>
+
+      <div class="slider-track" id="food-track">
+        <!-- Vegetables Burger -->
+        <div class="food-card">
+          <img src="images/burger.jpg" alt="Vegetables burger">
+          <span class="card-line"></span>
+          <h3>Vegetables burger</h3>
+          <p>Barbecue Italian cuisine pizza</p>
+        </div>
+
+
+        <div class="food-card">
+          <img src="images/pizza.png" alt="Special pizza">
+          <span class="card-line"></span>
+          <h3>Spacial Pizza</h3>
+          <p>Barbecue Italian cuisine pizza</p>
+        </div>
+
+        <div class="food-card">
+          <img src="images/fries.jpg" alt="Special French fries">
+          <span class="card-line"></span>
+          <h3>Spacial French fries</h3>
+          <p>Barbecue Italian cuisine</p>
+        </div>
+
+        <div class="food-card">
+          <img src="images/chicken.jpg" alt="Cuisine chicken">
+          <span class="card-line"></span>
+          <h3>Cuisine Chicken</h3>
+          <p>Japanese Cuisine Chicken</p>
+        </div>
+
+        <div class="food-card">
+          <img src="images/burger.jpg" alt="Vegetables burger">
+          <span class="card-line"></span>
+          <h3>Vegetables burger</h3>
+          <p>Barbecue Italian cuisine pizza</p>
+        </div>
+        
+        
+        <div class="food-card">
+          <img src="images/pizza.png" alt="Special pizza">
+          <span class="card-line"></span>
+          <h3>Spacial Pizza</h3>
+          <p>Barbecue Italian cuisine pizza</p>
+        </div>
+        
+        <div class="food-card">
+          <img src="images/fries.jpg" alt="Special French fries">
+          <span class="card-line"></span>
+          <h3>Spacial French fries</h3>
+          <p>Barbecue Italian cuisine</p>
+        </div>
+        
+        <div class="food-card">
+          <img src="images/chicken.jpg" alt="Cuisine chicken">
+          <span class="card-line"></span>
+          <h3>Cuisine Chicken</h3>
+          <p>Japanese Cuisine Chicken</p>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button class="arrow-btn" data-target="food-track" data-dir="-1" aria-label="Previous"><img
+            src="images/chevron-left.svg" alt=""></button>
+        <button class="arrow-btn" data-target="food-track" data-dir="1" aria-label="Next"><img
+            src="images/chevron-right.svg"></button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- booking section -->
+  <section class="booking" id="booking">
+    <div class="container">
+      <p class="label">Book Now</p>
+      <h2 class="section-title">Book your table</h2>
+      <p class="booking-desc">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare
+        non id blandit netus.</p>
+
+      <form class="booking-form">
+        <input type="text" class="field" placeholder="Your Name *" required>
+        <input type="email" class="field" placeholder="Your Email">
+        <input type="text" class="field field-date" placeholder="Reservation Date">
+        <select class="field field-select" required>
+          <option value="" selected disabled>Total People</option>
+          <option>1 Person</option>
+          <option>2 People</option>
+          <option>3 People</option>
+          <option>4 People</option>
+          <option>5 People</option>
+          <option>6 People</option>
+          <option>7 People</option>
+          <option>8+ People</option>
+        </select>
+        <textarea class="field field-message" placeholder="Message"></textarea>
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+
+  <section class="testimonials" id="testimonials">
+    <img src="images/tomato-slice.png" alt="" class="decor decor-tomato">
+    <img src="images/herb.png" alt="" class="decor decor-herb">
+
+    <div class="container testimonials-container">
+      <p class="label">Crispy, Every Bite Taste</p>
+      <h2 class="section-title">What some of my customers say</h2>
+      <div class="slider-track" id="testi-track">
+        <div class="testimonial">
+          <div class="quote-box">
+            <p class="quote-text">You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked
+              perfectly, juicy &amp; soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
+
+            <div class="author">
+              <div class="author-info">
+                <h4>Khalid Al Dawsry</h4>
+                <p>Jeddah, Saudi</p>
+              </div>
+              <img src="images/avatar.jpg" alt="Khalid Al Dawsry" class="avatar">
+            </div>
+            <img src="images/ornament.svg" alt="" class="ornament">
+          </div>
+
+          <div class="quote-video">
+            <img src="images/testimonial-food.jpg" alt="Chicken mandi served on rice">
+            <button class="play-btn" aria-label="Play video"><span></span></button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    
+    <div class="footer-inner">
+      <h2 class="footer-title">We ready to have you the best dining experiences</h2>
+      <div class="footer-info">
+        <div class="info-item">
+          <img src="images/icon-clock.svg" alt="">
+          <h3>Opening hours</h3>
+          <p>Monday - Sunday<br>9:00 AM to 11:30 PM</p>
+        </div>
+        <div class="info-item">
+          <img src="images/icon-phone-yellow.svg" alt="Phone">
+          <h3>Let's talk</h3>
+          <p>Phone: 1-800-222-4545<br>Fax: 1-800-222-4545</p>
+        </div>
+        <div class="info-item">
+          <img src="images/icon-mail.svg" alt="">
+          <h3>Book a table</h3>
+          <p>Email: demo@website.com<br>Support: support@website.com</p>
+        </div>
+        <div class="info-item">
+          <img src="images/icon-pin.svg" alt="">
+          <h3>Our Address</h3>
+          <p>123 Stree New York City , United<br>States Of America.</p>
+        </div>
+      </div>
+
+      <div class="social">
+        <a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/icon-x.svg" alt="Twitter"></a>
+        <a href="#"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="images/icon-linkedin.svg" alt="LinkedIn"></a>
+      </div>
+
+      <p class="copyright">&copy; 2023 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
