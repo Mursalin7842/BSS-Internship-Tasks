@@ -39,8 +39,8 @@ progress.
 
 | Phase | Duration | Focus | Status |
 |---|---|---|---|
-| 1 | 2 weeks | HTML and CSS | 🟡 |
-| 2 | 1 week | Bootstrap 5 | ⬜ |
+| 1 | 2 weeks | HTML and CSS | ✅ |
+| 2 | 1 week | Bootstrap 5 | 🟡 |
 | 3 | 2 days | Git and GitHub | ⬜ |
 | 4 | 2 weeks | JavaScript fundamentals | ⬜ |
 | 5 | 3 weeks | Frontend framework (React or Angular) | ⬜ |
@@ -54,11 +54,11 @@ progress.
 ### 🟡 Phase 1 Tasks and Assignments: [View Live Website](https://phase1-tasks.vercel.app/)
 - ✅ Task 1.1: Bangladesh flag using CSS positioning
 - ✅ Task 1.2: Bento-style image gallery with CSS Grid
-- [ ] Task 1.3: Analog clock UI
-- [ ] Task 2.1: Figma to page, Convention Center
-- [ ] Task 2.2: Figma to page, Restaurant
-- [ ] Task 2.3: Figma to page, Furniture e-commerce
-- [ ] Assessment: personal portfolio (static website)
+- ✅ Task 1.3: Analog clock UI
+- ✅ Task 2.1: Figma to page, Convention Center
+- ✅ Task 2.2: Figma to page, Restaurant
+- [x] Task 2.3: Figma to page, Furniture e-commerce
+- [🟡] Assessment: personal portfolio (static website)
 
 ### Phase 2: Bootstrap
 
