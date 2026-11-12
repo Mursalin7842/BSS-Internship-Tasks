@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Geist Pixel", sans-serif;
+    background-color: #E7E8D3;
+    scroll-behavior: smooth;
+}
+
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+   
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #ffa64d;
+    padding: 0.5rem 1rem;
+    box-shadow: 5px 5px 0px  rgba(0, 0, 0);
+    margin: 0.5rem 0rem;
+}
+
+button:hover{
+    background-color: #e69533;
+    box-shadow: 3px 3px 0px  rgba(0, 0, 0);
+    color: white;
+}
+
+
+
+.underline{
+    display: block;
+    width: 10%;
+    height: 0.4rem;
+    box-shadow: 0.1rem 0.1rem 0rem  rgba(0, 0, 0);
+    background-color: #ffa64d;
+    margin: 0 auto 1rem;
+}
+
+.header{
+    width: 100%;
+    background-color: #ffa64d;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0.3rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .nav-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation .nav-links li{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+
+    a{
+        color: black;
+        cursor: pointer;
+        font-size: 1.3rem;
+        
+    }
+}
+
+.hero{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.logo{
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.logo-image{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.left-hero{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;    
+}
+
+
+
+
+.right-hero{
+    flex: 1;
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: 5px 5px 0px  rgba(0, 0, 0);
+}
+
+.hero-skills-heading{
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.skill-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid black;
+}
+
+.skill-row:last-child{
+    border-bottom: none;
+}
+
+.skill-row h3{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.skill-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.7rem;
+}
+
+.skill-items li{
+    font-size: 0.85rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0);
+}
+
+/* about section */
+.about{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.about p{
+    text-align: justify;
+}
+
+/* experiemce section */
+.experience{
+    width: 100%;
+    margin: 0 auto;
+}
+.experience-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.experience-duration{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* projects section */
+.projects{
+    width: 100%;
+    margin: 0 auto;
+}
+.projects-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* certifications section */
+.certifications{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.certifications-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* publications section */
+.publications{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.publications-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* contact section */
+.contact{
+    width: 100%;
+    margin: 0 auto;
+}
+.contact-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* cards design for all sections using grid layout */
+
+.card-grid,
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.contact-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content-card{
+    border: 1px solid black;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.content-card h3{
+    margin-bottom: 0.75rem;
+}
+
+.content-card p{
+    margin-bottom: 0.75rem;
+    text-align: justify;
+}
+
+.card-label{
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+
+.card-link{
+    display: inline-block;
+    margin-top: auto;
+    align-self: flex-start;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.card-link:hover{
+    color: #ffa64d;
+    border-bottom: 2px solid #ffa64d;
+}
+
+/* contact section */
+
+.contact-text{
+    padding: 0 1rem;
+}
+
+.contact-form,
+.social-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    border: 1px solid black;
+    padding: 0.65rem;
+    background-color: white;
+    font: inherit;
+}
+
+.contact-form button{
+    align-self: flex-start;
+}
+
+.social-links{
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-links a{
+    border: 1px solid black;
+    padding: 0.5rem 0.75rem;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0);
+}
+
+.social-links a:hover{
+    background-color: #ffa64d;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0);
+    color: white;
+}
+
+/* footer section */
+
+
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffa64d;
+}
+
+
+
+@media (max-width: 768px){
+    .hero-container,
+    .left-hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .skill-row{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .card-grid,
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}
