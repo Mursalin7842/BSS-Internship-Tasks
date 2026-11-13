@@ -387,13 +387,11 @@ button:hover{
     .skill-row{
         flex-direction: column;
         gap: 0.5rem;
-        justify-content: center;
-        align-items: center;
+        align-items: start;
     }
 
     .skill-items{
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
     }
 
     .card-grid,
