@@ -388,10 +388,12 @@ button:hover{
         flex-direction: column;
         gap: 0.5rem;
         justify-content: center;
+        align-items: center;
     }
 
     .skill-items{
         justify-content: center;
+        align-items: center;
     }
 
     .card-grid,
