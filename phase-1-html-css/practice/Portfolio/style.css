@@ -389,6 +389,10 @@ button:hover{
         gap: 0.5rem;
     }
 
+    .skill-items{
+        justify-content: center;
+    }
+
     .card-grid,
     .contact-grid{
         grid-template-columns: 1fr;
