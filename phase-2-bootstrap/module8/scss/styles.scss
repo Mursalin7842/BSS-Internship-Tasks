@@ -21,4 +21,21 @@
     .navbar {
         background: var(--bs-dark);
     }
+
+    .header{
+        height: 800px !important;
+        min-height: 800px !important; 
+    }
+    .register h2{
+        text-align: center;
+    }
+
+    .register{
+        padding: 40px 0 !important;
+    }
+
+    .summary{
+        width: 90% !important;
+        margin-top: 0 !important;
+    }
 }
