@@ -1,0 +1,17 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce website phase2 task",
+  "license": "MIT",
+  "author": "Mursaline Huqe",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.9",
+    "sass": "^1.108.2"
+  }
+}
