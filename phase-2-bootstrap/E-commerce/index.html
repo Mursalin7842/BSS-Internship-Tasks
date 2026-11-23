@@ -22,9 +22,9 @@
     </div>
 
     <!--navigation panel-->
-    <nav class="navbar navbar-expand-md bg-light">
+    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
-            <a href="#" class="navbar-brand fw-bolder fs-1 d-none d-md-block">SHOP.CO</a>
+            <a href="#" class="navbar-brand fw-bolder fs-1 d-none d-lg-block">SHOP.CO</a>
             <button 
                 class="navbar-toggler border-0"
                 type="button"
@@ -35,7 +35,7 @@
             </button>
 
             <!--as the menu icon becomes left side on small screens thats why i added a separate brand name here-->
-            <a href="#" class="navbar-brand fw-bolder fs-1 d-md-none">SHOP.CO</a>
+            <a href="#" class="navbar-brand fw-bolder fs-1 d-lg-none">SHOP.CO</a>
             
             <div class="navbar-collapse collapse" id="navmenu">
                 <ul class ="navbar-nav ms-auto fs-5 fw-medium">
@@ -64,22 +64,24 @@
 
             </div>
 
-
-            <!--search button for mobile devices and hidden on large screens--->
-
-            <button class="btn d-lg-none" data-bs-toggle="collapse" data-bs-target="#searchbar">
-                <img src="images/search_icon.svg" alt="Search" />
-            </button>
-
-            <!--card and profiles-->
-
-            <button type="button" class="btn">
-                <img src="images/cart_icon.svg" alt="Cart" />
-            </button>
-
-            <button type="button" class="btn">
-                <img src="images/profile_icon.svg" alt="Profile" />
-            </button>
+            <div> <!--added this div for mobile view so the icons can be on right side -->
+                <!--search button for mobile devices and hidden on large screens--->
+                
+                <button class="btn d-lg-none" data-bs-toggle="collapse" data-bs-target="#searchbar">
+                    <img src="images/search_icon.svg" alt="Search" />
+                </button>
+                
+                <!--card and profiles-->
+                
+                <button type="button" class="btn">
+                    <img src="images/cart_icon.svg" alt="Cart" />
+                </button>
+                
+                <button type="button" class="btn">
+                    <img src="images/profile_icon.svg" alt="Profile" />
+                </button>
+            </div>
+           
             
 
         </div>
@@ -97,7 +99,7 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12 pt-5 mt-5 first-col">
+                <div class="col-12 col-lg-6 pt-5 mt-5 first-col">
                     <h1 class="xl-text fw-bolder">
                         FIND CLOTHES THAT MATCHED YOUR STYLE
                     </h1>
@@ -125,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-12 col-lg-6">
                     <div class="">
                         <img src="images/hero_image.png" alt="" class="img-fluid w-100" />
                     </div>
@@ -515,17 +517,21 @@
 
     <section class="subscribe container-fluid my-5">
         <div class="container bg-dark text-white rounded-4 p-5">
-            <div class="row justify-content-between p-3">
+            <div class="row p-3 g-">
                 <div class="col-12 col-lg-6 ">
                     <h1 class="fw-bold xl-text-footer">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <form class="row gap-3">
-                        <div class="col-6">
-                            <input type="email" class="form-control rounded-5" placeholder="Enter your email" />
+                <div class="col-12 col-lg-6" width="100%">
+                    <form class="row-cols-1 gap-3">
+                        <div class="col mb-2 input-group">
+                            <span class="input-group-text rounded-start-5 border-end-0">
+                                <i class="fa-solid fa-envelope text-muted fs-4"></i>
+                            </span>
+        
+                            <input type="email" class="form-control rounded-end-5 border-start-0" placeholder="Enter your email" />
                         </div>
-                        <div class="col-6">
-                            <button type="submit" class="btn btn-lg btn-light rounded-5 w-100">Subscribe To Newsletter</button>
+                        <div class="col">
+                            <a href="#" class="btn btn-lg btn-light rounded-5 w-100 text-nowrap">Subscribe To Newsletter</a>
                         </div>
                     </form>
                 </div>

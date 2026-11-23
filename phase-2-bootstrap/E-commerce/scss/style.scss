@@ -2,7 +2,7 @@
     font-size: 70px;
 }
 .xl-text-footer{
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .header{
@@ -31,6 +31,10 @@
         font-size: 40px;
     }
 
+    .xl-text-footer{
+        font-size: 30px;
+    }
+
     .header .shop-now{
         width: 100%;
         margin-bottom: 2px !important;
@@ -47,3 +51,25 @@
 
     }
 }
+
+// Tablet header
+@media (min-width: 768px) and (max-width: 1200px) {
+    .header .xl-text {
+        font-size: 40px;
+    }
+
+    .header .first-col {
+        padding-top: 2rem !important;
+        margin-top: 0 !important;
+    }
+
+    .header .shop-now {
+        width: 100%;
+        margin-bottom: 1rem !important;
+    }
+
+    .header .stats {
+        font-size: 14px;
+    }
+}
+
