@@ -3,11 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css"
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>SHOP.CO</title>
 </head>
 <body>
+
+    <!--promotion signup banner-->
+    <!--here i used alert class at first i tried to do toast then have some alignment issues so then decided to use alert class-->
+    <div class="container-fluid bg-dark text-light text-center">
+        <div class = "alert alert-dismissible container">
+            Sign up and get 20% off to your first order. <a href="#" class="alert-link">Sign Up Now</a>
+            <button type="button"
+            class="btn-close d-none d-md-inline-block btn-close-white"
+            data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+
+    <!--navigation panel-->
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bolder fs-1 d-none d-md-block">SHOP.CO</a>
+            <button 
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+                >  
+                <img  src="images/menu_icon.svg" alt="menu">
+            </button>
+
+            <!--as the menu icon becomes left side on small screens thats why i added a separate brand name here-->
+            <a href="#" class="navbar-brand fw-bolder fs-1 d-md-none">SHOP.CO</a>
+            
+            <div class="navbar-collapse collapse" id="navmenu">
+                <ul class ="navbar-nav ms-auto fs-5 fw-medium">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">Men</li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">On Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Brands</a>
+                    </li>
+                </ul>
+
+                <!--search bar for large screens-->
+
+                <form class="d-none d-lg-flex flex-grow-1 ms-3">
+                    <input type="text" class="form-control rounded-5 w-100" placeholder="Search for products..." />
+                </form>
+
+            </div>
+
+
+            <!--search button for mobile devices and hidden on large screens--->
+
+            <button class="btn d-lg-none" data-bs-toggle="collapse" data-bs-target="#searchbar">
+                <img src="images/search_icon.svg" alt="Search" />
+            </button>
+
+            <!--card and profiles-->
+
+            <button type="button" class="btn">
+                <img src="images/cart_icon.svg" alt="Cart" />
+            </button>
+
+            <button type="button" class="btn">
+                <img src="images/profile_icon.svg" alt="Profile" />
+            </button>
+            
+
+        </div>
+
+        <!-- searchbar for mobile device -->
+        <div class="collapse" id="searchbar">
+            <form>
+                <input type="text" class="form-control rounded-5 w-100" placeholder="Search for products..." />
+            </form>
+        </div>
+    </nav>
     
+    
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
