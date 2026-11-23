@@ -1,0 +1,25 @@
+.xl-text{
+    font-size: 70px;
+}
+
+.header{
+    background-color: #f2f0f1;
+}
+
+
+
+@media (max-width: 768px) {
+    .xl-text{
+        font-size: 40px;
+    }
+
+    .header .shop-now{
+        width: 100%;
+        margin-bottom: 2px !important;
+    }
+
+    .header .first-col{
+        padding-top: 5px !important;
+        margin-top: 0px !important;
+    }
+}
