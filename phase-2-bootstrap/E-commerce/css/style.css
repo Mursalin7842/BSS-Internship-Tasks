@@ -27,6 +27,19 @@
   flex: 0 0 400px;
 }
 
+.footer a {
+  text-decoration: none;
+  color: #575757;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #f0f0f0;
+}
+
 @media (max-width: 768px) {
   .xl-text {
     font-size: 40px;
@@ -45,6 +58,9 @@
   .header .stats {
     padding-left: 12px !important;
     padding-right: 12px !important;
+  }
+  .footer-bottom {
+    flex-direction: column;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
