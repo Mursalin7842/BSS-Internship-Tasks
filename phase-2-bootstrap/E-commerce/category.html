@@ -252,12 +252,23 @@
             <!--casual section-->
             <div class="col-lg-9">
                 <!--heading section-->
-                <div class="d-flex justify-content-between pb-3">
+                <div class="d-flex justify-content-between  pb-3">
                     <h3 class="fw-bold">Casual</h3>
-                    <span class="d-flex gap-3 align-items-center">
-                        <p class="text-muted">Showing 1-10 of 100 Products</p>
-                        <p class="text-muted d-none d-lg-inline-block">Sort by: <span class="fw-bold text-dark">Most Popular</span></p>
-                    </Span>
+                    <div class="d-flex gap-3 align-items-center">
+
+                        <p class="text-muted mb-0">Showing 1-10 of 100 Products</p>
+
+                        <div class="d-none d-lg-flex gap-2 align-items-center">
+                            <p class="text-muted text-nowrap mb-0">Sort by:</p>
+                            <select class="form-select border-0">
+                                <option selected>Most Popular</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+
+                    </div>
 
                     <span class="d-lg-none">
                         <button class="btn" data-bs-toggle="collapse" data-bs-target="#filter_collapse">

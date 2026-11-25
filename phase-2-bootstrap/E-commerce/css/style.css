@@ -105,4 +105,8 @@
   .header .stats {
     font-size: 14px;
   }
+  .price .h5 {
+    font-size: 1rem;
+    padding: 0px 5px !important;
+  }
 }
