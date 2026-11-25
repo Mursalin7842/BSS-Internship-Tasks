@@ -90,7 +90,171 @@
         </div>
     </nav>
 
+    <!--breadcrumb for category page-->
+    <section class="page-nav container" style="--bs-breadcrumb-divider: '>'">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item "><a href="index.html" class="text-muted">Home</a></li>
+            <li class="breadcrumb-item active"><a href="#" class="text-dark">Casual</a></li>
+        </ol>
+    </section> 
+
     
+    <!--filters and casual section-->
+
+    <section class="container my-5">
+        <div class="row">
+            <!--filter section--->
+            <div class="collapse d-none d-lg-block col-lg-3 border rounded-4 p-3" id="filter_collapse">
+                <!--part one -->
+                <div class="d-flex justify-content-between border-bottom pb-3">
+                    <h4 class="fw-bold">Filters</h4>
+                    <img src="images/filter-icon-muted.svg" alt="Filter" />
+                </div>
+
+                <!--part two catagories-->
+                <div class="border-bottom">
+                    <div class="d-flex justify-content-between  pt-3">
+                        <p class="text-muted">T-shirts</p>
+                        <i class="fa-solid fa-angle-right text-muted"></i>
+                    </div>
+                    <div class="d-flex justify-content-between  pt-2">
+                        <p class="text-muted">Shorts</p>
+                        <i class="fa-solid fa-angle-right text-muted"></i>
+                    </div>
+                    <div class="d-flex justify-content-between  pt-2">
+                        <p class="text-muted">Shirts</p>
+                        <i class="fa-solid fa-angle-right text-muted"></i>
+                    </div>
+                    <div class="d-flex justify-content-between  pt-2">
+                        <p class="text-muted">Hoodie</p>
+                        <i class="fa-solid fa-angle-right text-muted"></i>
+                    </div>
+                    <div class="d-flex justify-content-between  py-2">
+                        <p class="text-muted">Jeans</p>
+                        <i class="fa-solid fa-angle-right text-muted"></i>
+                    </div>
+
+                </div>
+
+                <!--part 3 price range section-->
+                <div class=" accordion border-bottom py-3" id="price-parent">
+                    <div class="accordion-item border-0">
+                            <button class="accordion-button text-bg-light px-0" data-bs-toggle="collapse" data-bs-target="#price-range">
+                                <h4 class="fw-bold">Price</h4>
+                            </button>
+
+                        <div class="accordion-collapse collapse" id="price-range" data-bs-parent="#price-parent">
+                            <div class="accordion-body px-0">
+                                <input type="range" class="form-range" min="5" max="1000"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--part 4 color picking-->
+                <div class=" accordion border-bottom py-3" id="color-parent">
+                    <div class="accordion-item border-0">
+                        <button class="accordion-button text-bg-light px-0" data-bs-toggle="collapse" data-bs-target="#color-panel">
+                            <h4 class="fw-bold">Color</h4>
+                        </button>
+                
+                        <div class="accordion-collapse collapse" id="color-panel" data-bs-parent="#color-parent">
+                            <div class="accordion-body px-0">
+                                <div class="d-flex flex-wrap align-items-center gap-2 mt-3">
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #00C12B;"></div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #F50606;"></div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #F5DD06;"></div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #F57906;"></div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #06CAF5;"></div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #063AF5; position: relative;">
+                                        <i class="fa-solid fa-check text-white"
+                                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></i>
+                                    </div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #7D06F5;"></div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #F506A4;"></div>
+                                    <div class="rounded-circle border" style="width: 50px; height: 50px; background-color: #ffffff;"></div>
+                                    <div class="rounded-circle" style="width: 50px; height: 50px; background-color: #000000;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--part 5 size selection-->
+                <div class=" accordion border-bottom py-3" id="size-parent">
+                    <div class="accordion-item border-0">
+                        <button class="accordion-button text-bg-light px-0" data-bs-toggle="collapse" data-bs-target="#size-selection">
+                            <h4 class="fw-bold">Size</h4>
+                        </button>
+                
+                        <div class="accordion-collapse collapse show" id="size-selection" data-bs-parent="#size-parent">
+                            <div class="accordion-body px-0">
+                                <div class="d-flex flex-wrap align-items-center gap-2 mt-3 size-selection">
+                                    <button class="btn  rounded-5">XX-Small</button>
+                                    <button class="btn  rounded-5">X-Small</button>
+                                    <button class="btn  rounded-5">Small</button>
+                                    <button class="btn  rounded-5">Medium</button>
+                                    <button class="btn activebtn rounded-5">Large</button>
+                                    <button class="btn  rounded-5">X-Large</button>
+                                    <button class="btn  rounded-5">XX-Large</button>
+                                    <button class="btn  rounded-5">3X-Large</button>
+                                    <button class="btn  rounded-5">XX-Large</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--part 6 dress selection-->
+                <div class=" accordion border-bottom py-3" id="dress-parent">
+                    <div class="accordion-item border-0">
+                        <button class="accordion-button text-bg-light px-0" data-bs-toggle="collapse" data-bs-target="#dress-selection">
+                            <h4 class="fw-bold">Dress Style</h4>
+                        </button>
+                
+                        <div class="accordion-collapse collapse show" id="dress-selection" data-bs-parent="#dress-parent">
+                            <div class="accordion-body px-0">
+                                <div class="d-flex justify-content-between  pt-2">
+                                    <p class="text-muted">Casual</p>
+                                    <i class="fa-solid fa-angle-right text-muted"></i>
+                                </div>
+                                <div class="d-flex justify-content-between  pt-2">
+                                    <p class="text-muted">Formal</p>
+                                    <i class="fa-solid fa-angle-right text-muted"></i>
+                                </div>
+                                <div class="d-flex justify-content-between  pt-2">
+                                    <p class="text-muted">Party</p>
+                                    <i class="fa-solid fa-angle-right text-muted"></i>
+                                </div>
+                                <div class="d-flex justify-content-between  pt-2">
+                                    <p class="text-muted">Gym</p>
+                                    <i class="fa-solid fa-angle-right text-muted"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-dark rounded-5 w-100 mt-3">Apply Filters</button>
+                
+
+
+            </div>
+
+            <!--casual section-->
+            <div class="col-lg-9">
+                <div class="d-flex justify-content-between pb-3">
+                    <h3 class="fw-bold">Casual</h3>
+                    <p class="text-muted">Showing 1-10 of 100 Products</p>
+                    <div class="">
+                        <span><p class="text-muted">Sort By:</p>
+                            <span><p>Most Popular</p></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--subscribe section-->
 

@@ -37,6 +37,26 @@
     background-color: #f0f0f0;
 }
 
+.page-nav a{
+    text-decoration: none;
+}
+
+.size-selection button{
+    background-color: #f0f0f0 !important;
+    color: #00000098;
+}
+
+.size-selection button:hover{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.size-selection .activebtn{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+
 @media (max-width: 768px) {
     .xl-text{
         font-size: 40px;
@@ -64,6 +84,7 @@
     .footer-bottom{
         flex-direction: column;
     }
+
 }
 
 // Tablet header

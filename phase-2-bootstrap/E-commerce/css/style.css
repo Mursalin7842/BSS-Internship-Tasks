@@ -40,6 +40,25 @@
   background-color: #f0f0f0;
 }
 
+.page-nav a {
+  text-decoration: none;
+}
+
+.size-selection button {
+  background-color: #f0f0f0 !important;
+  color: rgba(0, 0, 0, 0.5960784314);
+}
+
+.size-selection button:hover {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.size-selection .activebtn {
+  background-color: #000 !important;
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .xl-text {
     font-size: 40px;
